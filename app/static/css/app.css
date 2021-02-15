@@ -1,3 +1,58 @@
 body {
     padding-top: 5rem;
 }
+#all{
+    font-family: 'Open Sans', sans-serif;;
+}
+.box{
+    width: 400px;
+    /* height: float; */
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    /* display: inline-block; */
+    
+}
+.top{
+    background-color: #04995C;
+    color: white;
+    margin-bottom: 10px;
+}
+.bottom{
+    color: gray;
+    margin: 0 30px 30px 30px;
+}
+img{
+    margin: 25px auto 0 auto;
+    border-radius: 50%;
+}
+button{
+    border-radius: 8px;
+    color: white;
+    background-color: lime;
+    padding: 10px 40px;
+    border: none;
+    margin: 0px 20px 20px 20px;
+}
+#pd{
+    margin: 5px;
+}
+/* p{
+    font-size: 15px;
+} */
+.follow{
+    display: flex;
+    justify-content: center;
+    /* position: absolute; */
+    text-align: center;
+}
+.follow p{
+    margin: 10px;
+}
+h1{
+    margin: 5px;
+}
+span{
+    font-weight: bold;
+    color: black;
+}

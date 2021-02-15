@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title %}Profile{% endblock %}
+
+{% block main %}
+<div class="box" id="all">
+    <div class="top">
+        <img src="{{ url_for('static', filename='img/prof.jpg') }}" alt="Profile Image">
+        <h1>Gregory Sinclair</h1>
+        <p id="pd">@gsin</p>
+        <p id="pd">Kingston,Jamaica</p>
+        <p id="pd">Joined {%if d==null%}January, 2018 {%else%} {{d}} {%endif%}</p>
+    </div>
+    <div class="bottom">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non nisl laoreet, viverra sapien et, ornare mi. Nam sollicitudin nulla in erat vestibulum, vitae congue arcu efficitur. Nulla facilisi. Quisque diam nisi, condimentum in magna sit amet, pellentesque tempor ex.</p>
+        <div class="follow">
+            <!-- <p>posts</p> -->
+            <p><span>17</span> <br>Posts</p>
+            <!-- <p>following</p> -->
+            <p><span>717</span> <br>Following</p>
+            <!-- <p>followers</p> -->
+            <p><span>777</span> <br>Followers</p>
+        </div>
+
+    </div>
+    <button>Follow</button>
+</div>
+{% endblock %}
